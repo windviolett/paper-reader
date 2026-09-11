@@ -4,7 +4,7 @@
 
 **原型已上线：[打开论文阅读网站](https://windviolett.github.io/paper-reader/)。** 使用 GitHub Pages 项目网址，无需自购域名。当前是静态阅读原型；真实 PDF 处理与 LLM 调用仍需后续开发并部署后端，尚不构成完整功能交付。
 
-GitHub 仓库：[windviolett/paper-reader](https://github.com/windviolett/paper-reader)。2026-09-11 首次成功发布；已核对首页与三份文档返回 HTTP 200，且内容与源文件一致。[首次成功发布记录](https://github.com/windviolett/paper-reader/actions/runs/34567528026/attempts/2)。
+GitHub 仓库：[windviolett/paper-reader](https://github.com/windviolett/paper-reader)。2026-09-11 首次成功发布；已核对首页与三份文档返回 HTTP 200，且内容与源文件一致。[首次成功发布记录](https://github.com/windviolett/paper-reader/actions/runs/34567528026/attempts/2)
 
 - 打开 `index.html` 查看原型，无需安装依赖。
 - `docs/sample-report.md` 是可阅读、可修改的报告样稿。
