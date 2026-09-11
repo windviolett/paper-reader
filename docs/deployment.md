@@ -2,13 +2,15 @@
 
 ## 交付地址
 
-计划最终入口：`https://windviolett.github.io/paper-reader/`（尚未部署）。
+已上线的静态原型：[https://windviolett.github.io/paper-reader/](https://windviolett.github.io/paper-reader/)。
+
+2026-09-11 首次成功发布：提交 `d272f7374b22170da54e9e39a921d9e7b7324518`，[工作流第 2 次运行](https://github.com/windviolett/paper-reader/actions/runs/34567528026/attempts/2)成功。首页和 `docs/` 下的三份文档均返回 HTTP 200，字节内容与本地源文件一致。此项验证覆盖上线与文件完整性，不代表浏览器交互或真实论文功能验收已完成。
 
 已确认 GitHub 连接账号是 `windviolett`，仓库 `windviolett/paper-reader` 已创建，默认分支为 `main`。使用普通项目仓库，不是 `windviolett.github.io` 个人主页仓库；不配置自定义域名或 CNAME。上线状态以实际 Pages 工作流结果为准。
 
 ## 仓库与 Pages 设置
 
-仓库已由用户创建并初始化 README。当前 GitHub 连接提供文件写入接口，但不提供修改 Pages 设置的接口；初次开启 Pages 需在 GitHub 网页完成：
+仓库已创建，用户已将 Pages 发布来源设置为 GitHub Actions，首次发布已成功。以下步骤供重新部署或迁移时参考：
 
 1. 打开 [Pages 设置](https://github.com/windviolett/paper-reader/settings/pages)。
 2. 在 Build and deployment → Source 选择 GitHub Actions。
@@ -52,7 +54,7 @@ https://<用户名>.github.io/<仓库名>/
 
 确认 CSS、脚本、文档链接和 PDF 预览在仓库子路径下均可用；仅本地根路径下通过不算上线通过。记录前后端实际地址、部署版本和真实样本结果。提交源码、配置示例、部署步骤和运行费用说明。
 
-当前交付的是静态阅读原型及发布配置。成功上传文件不代表 Pages 已部署成功；真实论文处理后端仍待开发。
+当前已上线静态阅读原型，附带源码和发布配置；真实论文处理后端仍待开发。
 
 ## 官方参考
 

@@ -2,9 +2,9 @@
 
 本阶段交付：阅读报告样稿、可交互的静态网页、首版产品与验收规范。
 
-**已确定的最终交付形式：GitHub Pages 项目网站 `https://<用户名>.github.io/<仓库名>/`，无需自购域名。** 前端在 Pages 发布，真实 PDF 处理与 LLM 调用由另行部署的后端提供。当前原型还未上线，不能作为完整功能交付。
+**原型已上线：[打开论文阅读网站](https://windviolett.github.io/paper-reader/)。** 使用 GitHub Pages 项目网址，无需自购域名。当前是静态阅读原型；真实 PDF 处理与 LLM 调用仍需后续开发并部署后端，尚不构成完整功能交付。
 
-GitHub 仓库：[windviolett/paper-reader](https://github.com/windviolett/paper-reader)。计划网站入口：[windviolett.github.io/paper-reader](https://windviolett.github.io/paper-reader/)。仓库已经创建；网站是否上线以 GitHub Actions 的 Pages 部署结果为准。
+GitHub 仓库：[windviolett/paper-reader](https://github.com/windviolett/paper-reader)。2026-09-11 首次成功发布；已核对首页与三份文档返回 HTTP 200，且内容与源文件一致。[首次成功发布记录](https://github.com/windviolett/paper-reader/actions/runs/34567528026/attempts/2)。
 
 - 打开 `index.html` 查看原型，无需安装依赖。
 - `docs/sample-report.md` 是可阅读、可修改的报告样稿。
