@@ -9,6 +9,7 @@ GitHub 仓库：[windviolett/paper-reader](https://github.com/windviolett/paper-
 - 打开 `index.html` 查看原型，无需安装依赖。
 - `docs/sample-report.md` 是可阅读、可修改的报告样稿。
 - `docs/product-spec.md` 定义后续真实产品的范围、数据约定与验收方法。
+- [详细开发计划](docs/development-plan.md) 列出开发阶段、任务依赖、分工、接口草案和验收标准；建议从 P0 的样本与数据契约开始。
 - `docs/deployment.md` 说明项目网址、发布方式和最终线上验收要求。
 - `.github/workflows/pages.yml` 是准备好的静态原型发布工作流，默认分支为 `main`。
 

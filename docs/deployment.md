@@ -20,7 +20,7 @@
 
 ## 当前原型如何发布
 
-1. 将 `paper-reading-site/` 内的内容作为专用 GitHub 仓库根目录，包含 `.github/` 隐藏目录；不要上传上一级工作区。
+1. 使用当前 `paper-reader/` 仓库根目录（本地路径 `/home/xiaolang/111/paper-reader`），保留 `.github/` 隐藏目录；不要上传上一级工作区。
 2. 本工作流默认使用 `main` 分支；如实际分支不同，修改工作流分支配置。
 3. 在仓库 Settings → Pages → Build and deployment 中选择 GitHub Actions。
 4. 推送文件到 `main`，或在 Actions 页面手动运行 `Publish reading prototype to GitHub Pages`。

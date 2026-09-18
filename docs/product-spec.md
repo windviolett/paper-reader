@@ -2,6 +2,8 @@
 
 状态：设计草案；配套静态原型已在 GitHub Pages 上线，没有真实识别能力。
 
+执行顺序、任务清单、接口草案和开发分工见 [详细开发计划](development-plan.md)。本文件定义产品要求，开发计划负责将要求拆成可验收的任务。
+
 ## 已确定的最终交付形式
 
 用户指定使用 GitHub Pages 项目网站。当前静态原型已部署到 `https://windviolett.github.io/paper-reader/`，源码仓库为 `windviolett/paper-reader`。不以自购域名作为交付前提，真实论文处理功能仍待开发。
